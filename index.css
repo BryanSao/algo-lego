@@ -1,0 +1,233 @@
+* {
+    box-sizing: inherit;
+  }
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+/* -------header------ */
+.Fond {
+    background-image:url("Image/banner.jpg");
+    height:230px;
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+.Menu {
+    background-color:rgba(255, 255, 255, 0.26) ;
+    padding-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    
+}
+li {
+    list-style-type: none;
+    font-size: 30px;
+    
+}
+.Loupe {
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 85%;
+}
+.Recherche {
+    border-radius: 30px;
+    padding:10px;
+}
+.HeaderLogo {
+    display: flex;
+    justify-content: center;
+}
+.Logo {
+    max-width : 150px;
+    height : auto;
+    margin-left: 1%;
+    border: 2px solid black;
+}
+
+/* -------main------- */
+
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 280px;
+}
+.Histoire {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.Description {
+    padding-right: 100px;
+    padding-left: 50px;
+}
+.Phistoire {
+    font-size:2.5vh;
+}
+.LienD {
+    text-align: right;
+}
+h2 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.Boutiques {
+    display: flex;
+    justify-content: space-between;
+}
+.Ville {
+    text-align: center;
+}
+.ImgVille {
+    max-width : 350px;
+    height : 250px;
+    margin-left: 1%;;
+}
+
+.Lien {
+    border: 2px solid yellow;
+    padding: 5px 8px 5px 8px ;
+    background-color: yellow;
+    border-radius: 20px;
+    text-decoration: none;
+    color: Black;
+}
+.Lien:hover{
+   background-color: white;
+}
+.Rejoindres {
+    display: flex;
+    justify-content:center;
+}
+.V {
+    padding-left: 20%;
+    padding-right: 10%;
+}
+.Valeur {
+    max-width : 450px;
+    height : 300px;
+}
+.Nv {
+    font-size: 1.8vh;
+}
+.E {
+    padding-right: 20%;
+}
+/* ------footer------- */
+
+.OP {
+    display: flex;
+    justify-content: center;
+}
+.ImgS {
+    text-align: center;
+     max-width : 450px;
+     height : 450px;
+     margin-right: 100px;
+     margin-top: 120px;
+ }
+ .Formulaire {
+    display: flex;justify-content: center;
+}
+
+.NP {
+    display: block;
+    justify-content: center;
+}
+.Border {
+    border:2px solid  #979797;
+    border-radius: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+}
+.Border2 {
+    border:2px solid  #979797;
+    border-radius: 5%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 100px;
+}
+.captcha {
+    max-width : 300px;
+    height : 100px;
+}
+.Achat {
+    display: flex;
+    justify-content: center;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    background-color: yellow;
+    margin-right: 260px;
+    margin-bottom: 100px;
+  }
+  .Achat:hover{
+    background-color: white;
+  }
+  .footer {
+    background-color: #201d48;
+  }
+  .Avantpieddepage {
+    display: flex;
+    justify-content:center;
+  
+  }
+  .Paye {
+    display:block;
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+  .Stickers {
+    max-width: 75px;
+    height: auto;
+  }
+  .Pieddepage {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #201d48;
+    color: white;
+  }
+  .Logo {
+    max-width: 75px;
+    height: auto;
+  }
+  .Logopied {
+      margin-top: 60px;
+  }
+  .Réseaux {
+    display: flex;
+    justify-content: center;
+  }
+  
+ 
+  .Avantpieddepage {
+    background-color: #CBCFD8;
+    padding-top: 30px;
+    margin-top: 100px;
+  }
+  .Icon1 {
+    max-width: 35px;
+    height: auto;
+  }
+  .Information {
+    text-decoration: none;
+    color: white;
+  }
+  .Information:hover{
+    text-decoration:underline;
+  }
+
+  
+
